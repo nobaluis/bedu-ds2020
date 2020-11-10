@@ -79,6 +79,21 @@
 }
 ```
 
+o
+
+```
+{
+ filter: {
+  name: {
+   $in: [
+    'Greg Powell',
+    'Mercedes Tyler'
+   ]
+  }
+ }
+}
+```
+
 
 
 **Q:** ¿Cuál es el máximo número de comentarios en una película?
